@@ -3,7 +3,7 @@
 
 # import the necessary packages
 from __future__ import print_function
-from pyimagesearch.utils import Conf
+from OD_HOG.utils import Conf
 from scipy import io
 import numpy as np
 import argparse

@@ -4,10 +4,10 @@
 # import the necessary packages
 from __future__ import print_function
 from sklearn.feature_extraction.image import extract_patches_2d
-from pyimagesearch.object_detection import helpers
-from pyimagesearch.descriptors import HOG
-from pyimagesearch.utils import dataset
-from pyimagesearch.utils import Conf
+from OD_HOG.object_detection import helpers
+from OD_HOG.descriptors import HOG
+from OD_HOG.utils import dataset
+from OD_HOG.utils import Conf
 from imutils import paths
 from scipy import io
 import numpy as np

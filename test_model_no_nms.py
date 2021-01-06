@@ -3,9 +3,9 @@
 #	--image datasets/caltech101/101_ObjectCategories/car_side/image_0035.jpg
 
 # import the necessary packages
-from pyimagesearch.object_detection import ObjectDetector
-from pyimagesearch.descriptors import HOG
-from pyimagesearch.utils import Conf
+from OD_HOG.object_detection import ObjectDetector
+from OD_HOG.descriptors import HOG
+from OD_HOG.utils import Conf
 import imutils
 import argparse
 import pickle

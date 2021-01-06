@@ -4,8 +4,8 @@
 
 # import the necessary packages
 from __future__ import print_function
-from pyimagesearch.utils import dataset
-from pyimagesearch.utils import Conf
+from OD_HOG.utils import dataset
+from OD_HOG.utils import Conf
 from sklearn.svm import SVC
 import numpy as np
 import argparse
